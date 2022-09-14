@@ -1,0 +1,45 @@
+.game-information {
+  border-top: 1px solid #000000;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.game-information .player {
+  width: 50%;
+  padding: 10px;
+}
+
+.game-information .skill-list {
+  display: flex;
+}
+.game-information .skill-list .skill {
+  border: 1px solid #000000;
+  margin: 0 5px;
+  width: 50px;
+  height: 50px;
+}
+
+.game-information .skill-list .key {
+  text-align: center;
+}
+
+.game-information .player2 > * {
+  float: right;
+}
+
+.game-information .hp-bar {
+  width: 100%;
+  height: 20px;
+  border: 1px solid #000000;
+  margin-bottom: 10px;
+}
+
+.game-information .player2 .hp-bar {
+  transform: rotate(180deg);
+}
+
+.game-information .hp-bar .current {
+  background: #000000;
+  height: 100%;
+}

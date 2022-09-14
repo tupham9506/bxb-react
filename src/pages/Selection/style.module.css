@@ -1,0 +1,39 @@
+.title {
+  font-size: 30px;
+  border-bottom: 1px dashed #000000;
+}
+.selectionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.ballContainer {
+  display: flex;
+}
+
+.ball {
+  width: 200px;
+  height: 200px;
+}
+
+.ballTitle {
+  text-align: center;
+}
+
+.vsText {
+  font-size: 100px;
+  font-style: italic;
+  width: 200px;
+  line-height: 200px;
+  height: 200px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.startGameButton {
+}
